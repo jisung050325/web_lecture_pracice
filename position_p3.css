@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+ 
+  
+  
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  color: #273444;
+  background-color: #000;
+  text-align: center;
+  
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  box-shadow: none;
+  outline: none;
+  
+}
+button{
+  background-color: skyblue;
+}
+
+h1{
+  padding-bottom: 4px;
+}
+
+.modal-desc{
+  
+}
+
+.modal {
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 32px 40px;
+  
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  
+  
+}
+
+.modal-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+
+
+.input-group input,
+.input-group button {
+  
+
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.4285714286;
+  padding-left: 16px;
+  padding-top: 10px;
+}
+
+/* .input-group button{
+  color: #fff;
+}
+
+.input-group input{
+  background-color: rgb(233, 233, 233);
+} */
+
+.close-button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  background-image: url(./assets/icon-close.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  
+}
+
+
+
+.modal-title, 
+.modal-desc {
+  text-align: center;
+}
+
+.modal-title{
+  margin-bottom: 10px;
+}
+
+.modal-desc {
+  margin-bottom: 30px;
+}
+
+.close-button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.input-group input {
+  border: none;
+  background-color: #f6f8fa;
+  padding: 8px 16px;
+
+}
+.input-group button{
+  padding: 8px 18px;
+  border: none;
+  background-color: #4372dd;
+  color: #fff;
+}
+/* 
+.button {
+
+  width:100px;
+
+  background-color: #f8585b;
+
+  border: none;
+
+  color:#fff;
+
+  padding: 15px 0;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 15px;
+
+  margin: 4px;
+
+  cursor: pointer;
+
+} */
+
+
+
+
+/* ▼ WHERE YOUR CODE BEGINS */
