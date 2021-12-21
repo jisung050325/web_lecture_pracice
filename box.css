@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
